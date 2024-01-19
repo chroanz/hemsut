@@ -288,3 +288,69 @@ nav ul li {
 .for-women {
     background: url(../img/forwomen.png);
 }
+
+footer {
+    height: 500px;
+    background: #232323;
+}
+
+.first-box {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-box h3 {
+    font-family: 'Alata', sans-serif;
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    font-weight: 200;
+}
+
+.second-box {
+    height: 5.5rem;
+    border-top: 1px solid #616161;
+    border-bottom: 1px solid #616161;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3%;
+    padding: 0 3%;
+}
+
+.social-media {
+    width: fit-content;
+}
+
+.social-media ul {
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+}
+
+.address-newsletter {
+    width: fit-content;
+}
+
+.address-newsletter ul {
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+}
+
+.address-newsletter li a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.address-newsletter p {
+    color: #FFFFFF;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: initial;
+}
