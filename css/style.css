@@ -354,3 +354,28 @@ footer {
     font-weight: 100;
     text-align: initial;
 }
+
+.third-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.third-box ul {
+    height: 100%;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.third-box h4 {
+    height: 3rem;
+}
+
+.third-box li {
+    font-weight: 100;
+    text-decoration: none;
+}
